@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+.news{
+    background:#12232E;
+}
+.article ul{
+    flex:4;
+}
+
+.article div{
+    flex:2;
+}

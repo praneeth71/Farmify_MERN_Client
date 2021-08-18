@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.explore{
+    display:flex;
+   
+}
+
+
+.explore .contents{
+    flex: 4;
+}
+
+.explore .ad-bar{
+    flex:1.5;
+    background: #12232E;
+    min-height:90vh;
+    height: auto;
+    color: white;
+    font-family: 'Lucida Sans';
+}

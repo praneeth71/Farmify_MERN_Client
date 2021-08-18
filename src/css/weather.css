@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather{
+    background:#12232E;
+    color:white;   
+    font-family: 'Lucida Sans';
+    height: 100%;
+}
+
+.weather .fail-msg{
+    font-family: 'Lucida Sans';
+    width:100%;
+    align-self: center;
+    
+    height: auto;
+}
+
+
+
+
+.weather .weather-content{
+    flex:2;
+}
+.weather .weather-image{
+    flex:1;
+    height:auto;
+}

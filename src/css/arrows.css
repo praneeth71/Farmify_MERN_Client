@@ -1,0 +1,23 @@
+.first-arrow{
+    animation: blink 1s ease-in-out 0s infinite both ;
+}
+
+.second-arrow{
+    animation: blink 1s ease-in-out 0.3s infinite both ;
+}
+
+.third-arrow{
+    animation: blink 1s ease-in-out 0.6s infinite both ;
+}
+
+@keyframes blink{
+    0% { 
+        opacity: 1;
+    }
+    50% { 
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+    }
+}
